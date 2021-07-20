@@ -1,0 +1,9 @@
+/home/sheldon/Documents/pipeworld/build/sprintbot-model/CMakeFiles/install/strip.dir
+/home/sheldon/Documents/pipeworld/build/sprintbot-model/CMakeFiles/install/local.dir
+/home/sheldon/Documents/pipeworld/build/sprintbot-model/CMakeFiles/install.dir
+/home/sheldon/Documents/pipeworld/build/sprintbot-model/CMakeFiles/list_install_components.dir
+/home/sheldon/Documents/pipeworld/build/sprintbot-model/CMakeFiles/rebuild_cache.dir
+/home/sheldon/Documents/pipeworld/build/sprintbot-model/CMakeFiles/edit_cache.dir
+/home/sheldon/Documents/pipeworld/build/sprintbot-model/CMakeFiles/test.dir
+/home/sheldon/Documents/pipeworld/build/sprintbot-model/CMakeFiles/sprintbot-model_uninstall.dir
+/home/sheldon/Documents/pipeworld/build/sprintbot-model/CMakeFiles/uninstall.dir

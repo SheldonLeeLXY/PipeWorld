@@ -1,0 +1,6 @@
+Invoking command in '/home/sheldon/Documents/pipeworld/build/sprintbot-model': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/sheldon/Documents/pipeworld/src/sprintbot-model -DCMAKE_INSTALL_PREFIX=/home/sheldon/Documents/pipeworld/install/sprintbot-model
+Invoked command in '/home/sheldon/Documents/pipeworld/build/sprintbot-model' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/sheldon/Documents/pipeworld/src/sprintbot-model -DCMAKE_INSTALL_PREFIX=/home/sheldon/Documents/pipeworld/install/sprintbot-model
+Invoking command in '/home/sheldon/Documents/pipeworld/build/sprintbot-model': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sheldon/Documents/pipeworld/build/sprintbot-model -- -j8 -l8
+Invoked command in '/home/sheldon/Documents/pipeworld/build/sprintbot-model' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sheldon/Documents/pipeworld/build/sprintbot-model -- -j8 -l8
+Invoking command in '/home/sheldon/Documents/pipeworld/build/sprintbot-model': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/sheldon/Documents/pipeworld/build/sprintbot-model
+Invoked command in '/home/sheldon/Documents/pipeworld/build/sprintbot-model' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/sheldon/Documents/pipeworld/build/sprintbot-model

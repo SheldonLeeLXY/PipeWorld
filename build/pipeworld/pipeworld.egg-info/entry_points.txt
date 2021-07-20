@@ -1,0 +1,4 @@
+[console_scripts]
+navi_pose = pipeworld.exploring_slam:main
+pipe_spawner = pipeworld.pipe_spawner:main
+

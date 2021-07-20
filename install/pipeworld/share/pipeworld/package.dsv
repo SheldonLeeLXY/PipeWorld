@@ -1,0 +1,6 @@
+source;share/pipeworld/hook/pythonpath.ps1
+source;share/pipeworld/hook/pythonpath.dsv
+source;share/pipeworld/hook/pythonpath.sh
+source;share/pipeworld/hook/ament_prefix_path.ps1
+source;share/pipeworld/hook/ament_prefix_path.dsv
+source;share/pipeworld/hook/ament_prefix_path.sh

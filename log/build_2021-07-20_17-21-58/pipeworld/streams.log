@@ -1,0 +1,45 @@
+[0.241s] Invoking command in '/home/sheldon/Documents/pipeworld/src/pipeworld': PYTHONPATH=/home/sheldon/Documents/pipeworld/install/pipeworld/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pipeworld build --build-base /home/sheldon/Documents/pipeworld/build/pipeworld/build install --prefix /home/sheldon/Documents/pipeworld/install/pipeworld --record /home/sheldon/Documents/pipeworld/build/pipeworld/install.log --single-version-externally-managed
+[0.443s] running egg_info
+[0.443s] creating ../../build/pipeworld/pipeworld.egg-info
+[0.443s] writing ../../build/pipeworld/pipeworld.egg-info/PKG-INFO
+[0.443s] writing dependency_links to ../../build/pipeworld/pipeworld.egg-info/dependency_links.txt
+[0.443s] writing entry points to ../../build/pipeworld/pipeworld.egg-info/entry_points.txt
+[0.443s] writing requirements to ../../build/pipeworld/pipeworld.egg-info/requires.txt
+[0.443s] writing top-level names to ../../build/pipeworld/pipeworld.egg-info/top_level.txt
+[0.444s] writing manifest file '../../build/pipeworld/pipeworld.egg-info/SOURCES.txt'
+[0.473s] reading manifest file '../../build/pipeworld/pipeworld.egg-info/SOURCES.txt'
+[0.474s] writing manifest file '../../build/pipeworld/pipeworld.egg-info/SOURCES.txt'
+[0.474s] running build
+[0.474s] running build_py
+[0.474s] creating /home/sheldon/Documents/pipeworld/build/pipeworld/build
+[0.474s] creating /home/sheldon/Documents/pipeworld/build/pipeworld/build/lib
+[0.474s] creating /home/sheldon/Documents/pipeworld/build/pipeworld/build/lib/pipeworld
+[0.475s] copying pipeworld/pipe_spawner.py -> /home/sheldon/Documents/pipeworld/build/pipeworld/build/lib/pipeworld
+[0.475s] copying pipeworld/exploring_slam.py -> /home/sheldon/Documents/pipeworld/build/pipeworld/build/lib/pipeworld
+[0.475s] copying pipeworld/__init__.py -> /home/sheldon/Documents/pipeworld/build/pipeworld/build/lib/pipeworld
+[0.475s] running install
+[0.475s] running install_lib
+[0.476s] creating /home/sheldon/Documents/pipeworld/install/pipeworld/lib/python3.8/site-packages/pipeworld
+[0.476s] copying /home/sheldon/Documents/pipeworld/build/pipeworld/build/lib/pipeworld/pipe_spawner.py -> /home/sheldon/Documents/pipeworld/install/pipeworld/lib/python3.8/site-packages/pipeworld
+[0.476s] copying /home/sheldon/Documents/pipeworld/build/pipeworld/build/lib/pipeworld/exploring_slam.py -> /home/sheldon/Documents/pipeworld/install/pipeworld/lib/python3.8/site-packages/pipeworld
+[0.476s] copying /home/sheldon/Documents/pipeworld/build/pipeworld/build/lib/pipeworld/__init__.py -> /home/sheldon/Documents/pipeworld/install/pipeworld/lib/python3.8/site-packages/pipeworld
+[0.476s] byte-compiling /home/sheldon/Documents/pipeworld/install/pipeworld/lib/python3.8/site-packages/pipeworld/pipe_spawner.py to pipe_spawner.cpython-38.pyc
+[0.479s] byte-compiling /home/sheldon/Documents/pipeworld/install/pipeworld/lib/python3.8/site-packages/pipeworld/exploring_slam.py to exploring_slam.cpython-38.pyc
+[0.479s] byte-compiling /home/sheldon/Documents/pipeworld/install/pipeworld/lib/python3.8/site-packages/pipeworld/__init__.py to __init__.cpython-38.pyc
+[0.480s] running install_data
+[0.480s] creating /home/sheldon/Documents/pipeworld/install/pipeworld/share/ament_index
+[0.480s] creating /home/sheldon/Documents/pipeworld/install/pipeworld/share/ament_index/resource_index
+[0.480s] creating /home/sheldon/Documents/pipeworld/install/pipeworld/share/ament_index/resource_index/packages
+[0.480s] copying resource/pipeworld -> /home/sheldon/Documents/pipeworld/install/pipeworld/share/ament_index/resource_index/packages
+[0.480s] copying package.xml -> /home/sheldon/Documents/pipeworld/install/pipeworld/share/pipeworld
+[0.481s] creating /home/sheldon/Documents/pipeworld/install/pipeworld/share/pipeworld/launch
+[0.481s] copying launch/world.launch.py -> /home/sheldon/Documents/pipeworld/install/pipeworld/share/pipeworld/launch
+[0.481s] copying launch/sprintbot_world.launch.py -> /home/sheldon/Documents/pipeworld/install/pipeworld/share/pipeworld/launch
+[0.481s] copying launch/flat_pipe.launch.py -> /home/sheldon/Documents/pipeworld/install/pipeworld/share/pipeworld/launch
+[0.481s] running install_egg_info
+[0.482s] Copying ../../build/pipeworld/pipeworld.egg-info to /home/sheldon/Documents/pipeworld/install/pipeworld/lib/python3.8/site-packages/pipeworld-0.0.0-py3.8.egg-info
+[0.482s] running install_scripts
+[0.497s] Installing navi_pose script to /home/sheldon/Documents/pipeworld/install/pipeworld/lib/pipeworld
+[0.497s] Installing pipe_spawner script to /home/sheldon/Documents/pipeworld/install/pipeworld/lib/pipeworld
+[0.497s] writing list of installed files to '/home/sheldon/Documents/pipeworld/build/pipeworld/install.log'
+[0.520s] Invoked command in '/home/sheldon/Documents/pipeworld/src/pipeworld' returned '0': PYTHONPATH=/home/sheldon/Documents/pipeworld/install/pipeworld/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pipeworld build --build-base /home/sheldon/Documents/pipeworld/build/pipeworld/build install --prefix /home/sheldon/Documents/pipeworld/install/pipeworld --record /home/sheldon/Documents/pipeworld/build/pipeworld/install.log --single-version-externally-managed

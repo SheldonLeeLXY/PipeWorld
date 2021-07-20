@@ -1,0 +1,491 @@
+[0.255s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.256s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f0afc8638e0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f0afc8638e0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f0afc863e50>)
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.263s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sheldon/Documents/pipeworld'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/pipeworld) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/pipeworld) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/pipeworld) by extension 'ignore_ament_install'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/pipeworld) by extensions ['colcon_pkg']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/pipeworld) by extension 'colcon_pkg'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/pipeworld) by extensions ['colcon_meta']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/pipeworld) by extension 'colcon_meta'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/pipeworld) by extensions ['ros']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/pipeworld) by extension 'ros'
+[0.279s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pipeworld' with type 'ros.ament_python' and name 'pipeworld'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/sprintbot-model) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/sprintbot-model) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/sprintbot-model) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/sprintbot-model) by extensions ['colcon_pkg']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/sprintbot-model) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/sprintbot-model) by extensions ['colcon_meta']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/sprintbot-model) by extension 'colcon_meta'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/sprintbot-model) by extensions ['ros']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/sprintbot-model) by extension 'ros'
+[0.280s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sprintbot-model' with type 'ros.ament_cmake' and name 'sprintbot-model'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools) by extension 'ignore_ament_install'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools) by extensions ['colcon_pkg']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools) by extensions ['colcon_meta']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools) by extension 'colcon_meta'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools) by extensions ['ros']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools) by extension 'ros'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools) by extensions ['cmake', 'python']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools) by extension 'cmake'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools) by extension 'python'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools) by extensions ['python_setup_py']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools) by extension 'python_setup_py'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/joy_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/joy_teleop) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/joy_teleop) by extension 'ignore_ament_install'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/joy_teleop) by extensions ['colcon_pkg']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/joy_teleop) by extension 'colcon_pkg'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/joy_teleop) by extensions ['colcon_meta']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/joy_teleop) by extension 'colcon_meta'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/joy_teleop) by extensions ['ros']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/joy_teleop) by extension 'ros'
+[0.282s] DEBUG:colcon.colcon_core.package_identification:Package 'src/teleop_tools/joy_teleop' with type 'ros.ament_python' and name 'joy_teleop'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/key_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/key_teleop) by extension 'ignore'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/key_teleop) by extension 'ignore_ament_install'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/key_teleop) by extensions ['colcon_pkg']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/key_teleop) by extension 'colcon_pkg'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/key_teleop) by extensions ['colcon_meta']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/key_teleop) by extension 'colcon_meta'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/key_teleop) by extensions ['ros']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/key_teleop) by extension 'ros'
+[0.283s] DEBUG:colcon.colcon_core.package_identification:Package 'src/teleop_tools/key_teleop' with type 'ros.ament_python' and name 'key_teleop'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/mouse_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/mouse_teleop) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/mouse_teleop) by extension 'ignore_ament_install'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/mouse_teleop) by extensions ['colcon_pkg']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/mouse_teleop) by extension 'colcon_pkg'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/mouse_teleop) by extensions ['colcon_meta']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/mouse_teleop) by extension 'colcon_meta'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/mouse_teleop) by extensions ['ros']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/mouse_teleop) by extension 'ros'
+[0.284s] DEBUG:colcon.colcon_core.package_identification:Package 'src/teleop_tools/mouse_teleop' with type 'ros.ament_python' and name 'mouse_teleop'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools) by extension 'ignore'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools) by extension 'ignore_ament_install'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools) by extensions ['colcon_pkg']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools) by extension 'colcon_pkg'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools) by extensions ['colcon_meta']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools) by extension 'colcon_meta'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools) by extensions ['ros']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools) by extension 'ros'
+[0.285s] DEBUG:colcon.colcon_core.package_identification:Package 'src/teleop_tools/teleop_tools' with type 'ros.ament_cmake' and name 'teleop_tools'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools_msgs) by extension 'ignore'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools_msgs) by extension 'ignore_ament_install'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools_msgs) by extensions ['colcon_pkg']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools_msgs) by extension 'colcon_pkg'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools_msgs) by extensions ['colcon_meta']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools_msgs) by extension 'colcon_meta'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools_msgs) by extensions ['ros']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_tools/teleop_tools_msgs) by extension 'ros'
+[0.286s] DEBUG:colcon.colcon_core.package_identification:Package 'src/teleop_tools/teleop_tools_msgs' with type 'ros.ament_cmake' and name 'teleop_tools_msgs'
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'key_teleop' build argument 'cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'key_teleop' build argument 'cmake_target' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'key_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'key_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'key_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'key_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'key_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'key_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'key_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.304s] DEBUG:colcon.colcon_core.verb:Building package 'key_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sheldon/Documents/pipeworld/build/key_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sheldon/Documents/pipeworld/install/key_teleop', 'merge_install': False, 'path': '/home/sheldon/Documents/pipeworld/src/teleop_tools/key_teleop', 'symlink_install': False, 'test_result_base': None}
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'mouse_teleop' build argument 'cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'mouse_teleop' build argument 'cmake_target' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'mouse_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'mouse_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'mouse_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'mouse_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'mouse_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'mouse_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'mouse_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.307s] DEBUG:colcon.colcon_core.verb:Building package 'mouse_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sheldon/Documents/pipeworld/build/mouse_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sheldon/Documents/pipeworld/install/mouse_teleop', 'merge_install': False, 'path': '/home/sheldon/Documents/pipeworld/src/teleop_tools/mouse_teleop', 'symlink_install': False, 'test_result_base': None}
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'pipeworld' build argument 'cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'pipeworld' build argument 'cmake_target' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'pipeworld' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'pipeworld' build argument 'cmake_clean_cache' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'pipeworld' build argument 'cmake_clean_first' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'pipeworld' build argument 'cmake_force_configure' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'pipeworld' build argument 'ament_cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'pipeworld' build argument 'catkin_cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'pipeworld' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.309s] DEBUG:colcon.colcon_core.verb:Building package 'pipeworld' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sheldon/Documents/pipeworld/build/pipeworld', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sheldon/Documents/pipeworld/install/pipeworld', 'merge_install': False, 'path': '/home/sheldon/Documents/pipeworld/src/pipeworld', 'symlink_install': False, 'test_result_base': None}
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'sprintbot-model' build argument 'cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'sprintbot-model' build argument 'cmake_target' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'sprintbot-model' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'sprintbot-model' build argument 'cmake_clean_cache' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'sprintbot-model' build argument 'cmake_clean_first' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'sprintbot-model' build argument 'cmake_force_configure' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'sprintbot-model' build argument 'ament_cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'sprintbot-model' build argument 'catkin_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'sprintbot-model' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.312s] DEBUG:colcon.colcon_core.verb:Building package 'sprintbot-model' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sheldon/Documents/pipeworld/build/sprintbot-model', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sheldon/Documents/pipeworld/install/sprintbot-model', 'merge_install': False, 'path': '/home/sheldon/Documents/pipeworld/src/sprintbot-model', 'symlink_install': False, 'test_result_base': None}
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools_msgs' build argument 'cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools_msgs' build argument 'cmake_target' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.314s] DEBUG:colcon.colcon_core.verb:Building package 'teleop_tools_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sheldon/Documents/pipeworld/build/teleop_tools_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs', 'merge_install': False, 'path': '/home/sheldon/Documents/pipeworld/src/teleop_tools/teleop_tools_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop' build argument 'cmake_args' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop' build argument 'cmake_target' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'joy_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.316s] DEBUG:colcon.colcon_core.verb:Building package 'joy_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sheldon/Documents/pipeworld/build/joy_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sheldon/Documents/pipeworld/install/joy_teleop', 'merge_install': False, 'path': '/home/sheldon/Documents/pipeworld/src/teleop_tools/joy_teleop', 'symlink_install': False, 'test_result_base': None}
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools' build argument 'cmake_args' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools' build argument 'cmake_target' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools' build argument 'cmake_clean_first' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools' build argument 'cmake_force_configure' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools' build argument 'ament_cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'teleop_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.319s] DEBUG:colcon.colcon_core.verb:Building package 'teleop_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sheldon/Documents/pipeworld/build/teleop_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sheldon/Documents/pipeworld/install/teleop_tools', 'merge_install': False, 'path': '/home/sheldon/Documents/pipeworld/src/teleop_tools/teleop_tools', 'symlink_install': False, 'test_result_base': None}
+[0.319s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.321s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.321s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sheldon/Documents/pipeworld/src/teleop_tools/teleop_tools_msgs' with build type 'ament_cmake'
+[0.321s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sheldon/Documents/pipeworld/src/teleop_tools/teleop_tools_msgs'
+[0.325s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.326s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.326s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.328s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.330s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sheldon/Documents/pipeworld/src/teleop_tools/key_teleop' with build type 'ament_python'
+[0.331s] Level 1:colcon.colcon_core.shell:create_environment_hook('key_teleop', 'ament_prefix_path')
+[0.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sheldon/Documents/pipeworld/install/key_teleop/share/key_teleop/hook/ament_prefix_path.ps1'
+[0.333s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sheldon/Documents/pipeworld/install/key_teleop/share/key_teleop/hook/ament_prefix_path.dsv'
+[0.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sheldon/Documents/pipeworld/install/key_teleop/share/key_teleop/hook/ament_prefix_path.sh'
+[0.335s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.335s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.337s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.339s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sheldon/Documents/pipeworld/src/teleop_tools/mouse_teleop' with build type 'ament_python'
+[0.339s] Level 1:colcon.colcon_core.shell:create_environment_hook('mouse_teleop', 'ament_prefix_path')
+[0.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sheldon/Documents/pipeworld/install/mouse_teleop/share/mouse_teleop/hook/ament_prefix_path.ps1'
+[0.341s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sheldon/Documents/pipeworld/install/mouse_teleop/share/mouse_teleop/hook/ament_prefix_path.dsv'
+[0.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sheldon/Documents/pipeworld/install/mouse_teleop/share/mouse_teleop/hook/ament_prefix_path.sh'
+[0.342s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.342s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.344s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.346s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sheldon/Documents/pipeworld/src/pipeworld' with build type 'ament_python'
+[0.347s] Level 1:colcon.colcon_core.shell:create_environment_hook('pipeworld', 'ament_prefix_path')
+[0.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sheldon/Documents/pipeworld/install/pipeworld/share/pipeworld/hook/ament_prefix_path.ps1'
+[0.349s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sheldon/Documents/pipeworld/install/pipeworld/share/pipeworld/hook/ament_prefix_path.dsv'
+[0.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sheldon/Documents/pipeworld/install/pipeworld/share/pipeworld/hook/ament_prefix_path.sh'
+[0.350s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.350s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.352s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.356s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sheldon/Documents/pipeworld/src/sprintbot-model' with build type 'ament_cmake'
+[0.356s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sheldon/Documents/pipeworld/src/sprintbot-model'
+[0.357s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.357s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.359s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.369s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sheldon/Documents/pipeworld/build/teleop_tools_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sheldon/Documents/pipeworld/install/joy_teleop:/home/sheldon/Documents/pipeworld/install/pipeworld:/home/sheldon/Documents/pipeworld/install/mouse_teleop:/home/sheldon/Documents/pipeworld/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/sheldon/Documents/pipeworld/build/teleop_tools_msgs -- -j8 -l8
+[0.632s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sheldon/Documents/pipeworld/src/teleop_tools/key_teleop'
+[0.633s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.634s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.635s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.847s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sheldon/Documents/pipeworld/src/teleop_tools/mouse_teleop'
+[0.848s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.848s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.850s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.085s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sheldon/Documents/pipeworld/src/pipeworld'
+[1.086s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.086s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.087s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.095s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sheldon/Documents/pipeworld/build/sprintbot-model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sheldon/Documents/pipeworld/install/joy_teleop:/home/sheldon/Documents/pipeworld/install/pipeworld:/home/sheldon/Documents/pipeworld/install/mouse_teleop:/home/sheldon/Documents/pipeworld/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/sheldon/Documents/pipeworld/build/sprintbot-model -- -j8 -l8
+[1.105s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sheldon/Documents/pipeworld/build/teleop_tools_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sheldon/Documents/pipeworld/install/joy_teleop:/home/sheldon/Documents/pipeworld/install/pipeworld:/home/sheldon/Documents/pipeworld/install/mouse_teleop:/home/sheldon/Documents/pipeworld/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/sheldon/Documents/pipeworld/build/teleop_tools_msgs -- -j8 -l8
+[1.108s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sheldon/Documents/pipeworld/src/teleop_tools/key_teleop': PYTHONPATH=/home/sheldon/Documents/pipeworld/install/key_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/key_teleop build --build-base /home/sheldon/Documents/pipeworld/build/key_teleop/build install --prefix /home/sheldon/Documents/pipeworld/install/key_teleop --record /home/sheldon/Documents/pipeworld/build/key_teleop/install.log --single-version-externally-managed
+[1.112s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sheldon/Documents/pipeworld/src/teleop_tools/mouse_teleop': PYTHONPATH=/home/sheldon/Documents/pipeworld/install/mouse_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/mouse_teleop build --build-base /home/sheldon/Documents/pipeworld/build/mouse_teleop/build install --prefix /home/sheldon/Documents/pipeworld/install/mouse_teleop --record /home/sheldon/Documents/pipeworld/build/mouse_teleop/install.log --single-version-externally-managed
+[1.137s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sheldon/Documents/pipeworld/src/pipeworld': PYTHONPATH=/home/sheldon/Documents/pipeworld/install/pipeworld/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pipeworld build --build-base /home/sheldon/Documents/pipeworld/build/pipeworld/build install --prefix /home/sheldon/Documents/pipeworld/install/pipeworld --record /home/sheldon/Documents/pipeworld/build/pipeworld/install.log --single-version-externally-managed
+[1.143s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sheldon/Documents/pipeworld/build/sprintbot-model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sheldon/Documents/pipeworld/install/joy_teleop:/home/sheldon/Documents/pipeworld/install/pipeworld:/home/sheldon/Documents/pipeworld/install/mouse_teleop:/home/sheldon/Documents/pipeworld/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/sheldon/Documents/pipeworld/build/sprintbot-model -- -j8 -l8
+[1.183s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sheldon/Documents/pipeworld/build/sprintbot-model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sheldon/Documents/pipeworld/install/joy_teleop:/home/sheldon/Documents/pipeworld/install/pipeworld:/home/sheldon/Documents/pipeworld/install/mouse_teleop:/home/sheldon/Documents/pipeworld/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --install /home/sheldon/Documents/pipeworld/build/sprintbot-model
+[1.194s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sheldon/Documents/pipeworld/build/teleop_tools_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sheldon/Documents/pipeworld/install/joy_teleop:/home/sheldon/Documents/pipeworld/install/pipeworld:/home/sheldon/Documents/pipeworld/install/mouse_teleop:/home/sheldon/Documents/pipeworld/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --install /home/sheldon/Documents/pipeworld/build/teleop_tools_msgs
+[1.232s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sprintbot-model)
+[1.252s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sheldon/Documents/pipeworld/build/sprintbot-model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sheldon/Documents/pipeworld/install/joy_teleop:/home/sheldon/Documents/pipeworld/install/pipeworld:/home/sheldon/Documents/pipeworld/install/mouse_teleop:/home/sheldon/Documents/pipeworld/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --install /home/sheldon/Documents/pipeworld/build/sprintbot-model
+[1.255s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/sprintbot-model' for CMake module files
+[1.255s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/sprintbot-model' for CMake config files
+[1.256s] Level 1:colcon.colcon_core.shell:create_environment_hook('sprintbot-model', 'cmake_prefix_path')
+[1.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sheldon/Documents/pipeworld/install/sprintbot-model/share/sprintbot-model/hook/cmake_prefix_path.ps1'
+[1.258s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sheldon/Documents/pipeworld/install/sprintbot-model/share/sprintbot-model/hook/cmake_prefix_path.dsv'
+[1.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sheldon/Documents/pipeworld/install/sprintbot-model/share/sprintbot-model/hook/cmake_prefix_path.sh'
+[1.259s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/sprintbot-model/bin'
+[1.259s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/sprintbot-model/lib/pkgconfig/sprintbot-model.pc'
+[1.259s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/sprintbot-model/lib/python3.8/site-packages'
+[1.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheldon/Documents/pipeworld/install/sprintbot-model/share/sprintbot-model/package.ps1'
+[1.262s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sheldon/Documents/pipeworld/install/sprintbot-model/share/sprintbot-model/package.dsv'
+[1.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheldon/Documents/pipeworld/install/sprintbot-model/share/sprintbot-model/package.sh'
+[1.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheldon/Documents/pipeworld/install/sprintbot-model/share/sprintbot-model/package.bash'
+[1.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheldon/Documents/pipeworld/install/sprintbot-model/share/sprintbot-model/package.zsh'
+[1.271s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sheldon/Documents/pipeworld/install/sprintbot-model/share/colcon-core/packages/sprintbot-model)
+[1.284s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop_tools_msgs)
+[1.286s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs' for CMake module files
+[1.287s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sheldon/Documents/pipeworld/build/teleop_tools_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sheldon/Documents/pipeworld/install/joy_teleop:/home/sheldon/Documents/pipeworld/install/pipeworld:/home/sheldon/Documents/pipeworld/install/mouse_teleop:/home/sheldon/Documents/pipeworld/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --install /home/sheldon/Documents/pipeworld/build/teleop_tools_msgs
+[1.288s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs' for CMake config files
+[1.289s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_tools_msgs', 'cmake_prefix_path')
+[1.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/cmake_prefix_path.ps1'
+[1.290s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/cmake_prefix_path.dsv'
+[1.291s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/cmake_prefix_path.sh'
+[1.291s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/lib'
+[1.292s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_tools_msgs', 'ld_library_path_lib')
+[1.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/ld_library_path_lib.ps1'
+[1.293s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/ld_library_path_lib.dsv'
+[1.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/ld_library_path_lib.sh'
+[1.294s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/bin'
+[1.294s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/lib/pkgconfig/teleop_tools_msgs.pc'
+[1.294s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/lib/python3.8/site-packages'
+[1.295s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_tools_msgs', 'pythonpath')
+[1.295s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/pythonpath.ps1'
+[1.296s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/pythonpath.dsv'
+[1.296s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/pythonpath.sh'
+[1.297s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/share/teleop_tools_msgs/package.ps1'
+[1.298s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/share/teleop_tools_msgs/package.dsv'
+[1.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/share/teleop_tools_msgs/package.sh'
+[1.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/share/teleop_tools_msgs/package.bash'
+[1.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/share/teleop_tools_msgs/package.zsh'
+[1.300s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/share/colcon-core/packages/teleop_tools_msgs)
+[1.308s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sprintbot-model)
+[1.309s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/sprintbot-model' for CMake module files
+[1.310s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/sprintbot-model' for CMake config files
+[1.310s] Level 1:colcon.colcon_core.shell:create_environment_hook('sprintbot-model', 'cmake_prefix_path')
+[1.311s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sheldon/Documents/pipeworld/install/sprintbot-model/share/sprintbot-model/hook/cmake_prefix_path.ps1'
+[1.312s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sheldon/Documents/pipeworld/install/sprintbot-model/share/sprintbot-model/hook/cmake_prefix_path.dsv'
+[1.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sheldon/Documents/pipeworld/install/sprintbot-model/share/sprintbot-model/hook/cmake_prefix_path.sh'
+[1.313s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/sprintbot-model/bin'
+[1.313s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/sprintbot-model/lib/pkgconfig/sprintbot-model.pc'
+[1.313s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/sprintbot-model/lib/python3.8/site-packages'
+[1.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheldon/Documents/pipeworld/install/sprintbot-model/share/sprintbot-model/package.ps1'
+[1.315s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sheldon/Documents/pipeworld/install/sprintbot-model/share/sprintbot-model/package.dsv'
+[1.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheldon/Documents/pipeworld/install/sprintbot-model/share/sprintbot-model/package.sh'
+[1.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheldon/Documents/pipeworld/install/sprintbot-model/share/sprintbot-model/package.bash'
+[1.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheldon/Documents/pipeworld/install/sprintbot-model/share/sprintbot-model/package.zsh'
+[1.317s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sheldon/Documents/pipeworld/install/sprintbot-model/share/colcon-core/packages/sprintbot-model)
+[1.366s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop_tools_msgs)
+[1.367s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs' for CMake module files
+[1.368s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs' for CMake config files
+[1.369s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_tools_msgs', 'cmake_prefix_path')
+[1.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/cmake_prefix_path.ps1'
+[1.370s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/cmake_prefix_path.dsv'
+[1.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/cmake_prefix_path.sh'
+[1.371s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/lib'
+[1.371s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_tools_msgs', 'ld_library_path_lib')
+[1.371s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/ld_library_path_lib.ps1'
+[1.371s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/ld_library_path_lib.dsv'
+[1.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/ld_library_path_lib.sh'
+[1.372s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/bin'
+[1.372s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/lib/pkgconfig/teleop_tools_msgs.pc'
+[1.372s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/lib/python3.8/site-packages'
+[1.372s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_tools_msgs', 'pythonpath')
+[1.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/pythonpath.ps1'
+[1.373s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/pythonpath.dsv'
+[1.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/share/teleop_tools_msgs/hook/pythonpath.sh'
+[1.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/share/teleop_tools_msgs/package.ps1'
+[1.375s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/share/teleop_tools_msgs/package.dsv'
+[1.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/share/teleop_tools_msgs/package.sh'
+[1.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/share/teleop_tools_msgs/package.bash'
+[1.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/share/teleop_tools_msgs/package.zsh'
+[1.376s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/share/colcon-core/packages/teleop_tools_msgs)
+[1.376s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sheldon/Documents/pipeworld/src/teleop_tools/joy_teleop' with build type 'ament_python'
+[1.377s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_teleop', 'ament_prefix_path')
+[1.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sheldon/Documents/pipeworld/install/joy_teleop/share/joy_teleop/hook/ament_prefix_path.ps1'
+[1.378s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sheldon/Documents/pipeworld/install/joy_teleop/share/joy_teleop/hook/ament_prefix_path.dsv'
+[1.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sheldon/Documents/pipeworld/install/joy_teleop/share/joy_teleop/hook/ament_prefix_path.sh'
+[1.379s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.379s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.381s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.642s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sheldon/Documents/pipeworld/src/teleop_tools/joy_teleop'
+[1.643s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.643s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.645s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.650s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/key_teleop' for CMake module files
+[1.651s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sheldon/Documents/pipeworld/src/teleop_tools/key_teleop' returned '0': PYTHONPATH=/home/sheldon/Documents/pipeworld/install/key_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/key_teleop build --build-base /home/sheldon/Documents/pipeworld/build/key_teleop/build install --prefix /home/sheldon/Documents/pipeworld/install/key_teleop --record /home/sheldon/Documents/pipeworld/build/key_teleop/install.log --single-version-externally-managed
+[1.651s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/key_teleop' for CMake config files
+[1.651s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/key_teleop/lib'
+[1.651s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/key_teleop/bin'
+[1.651s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/key_teleop/lib/pkgconfig/key_teleop.pc'
+[1.651s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/key_teleop/lib/python3.8/site-packages'
+[1.651s] Level 1:colcon.colcon_core.shell:create_environment_hook('key_teleop', 'pythonpath')
+[1.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sheldon/Documents/pipeworld/install/key_teleop/share/key_teleop/hook/pythonpath.ps1'
+[1.652s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sheldon/Documents/pipeworld/install/key_teleop/share/key_teleop/hook/pythonpath.dsv'
+[1.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sheldon/Documents/pipeworld/install/key_teleop/share/key_teleop/hook/pythonpath.sh'
+[1.653s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(key_teleop)
+[1.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheldon/Documents/pipeworld/install/key_teleop/share/key_teleop/package.ps1'
+[1.654s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sheldon/Documents/pipeworld/install/key_teleop/share/key_teleop/package.dsv'
+[1.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheldon/Documents/pipeworld/install/key_teleop/share/key_teleop/package.sh'
+[1.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheldon/Documents/pipeworld/install/key_teleop/share/key_teleop/package.bash'
+[1.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheldon/Documents/pipeworld/install/key_teleop/share/key_teleop/package.zsh'
+[1.655s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sheldon/Documents/pipeworld/install/key_teleop/share/colcon-core/packages/key_teleop)
+[1.656s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/mouse_teleop' for CMake module files
+[1.657s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/mouse_teleop' for CMake config files
+[1.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sheldon/Documents/pipeworld/src/teleop_tools/mouse_teleop' returned '0': PYTHONPATH=/home/sheldon/Documents/pipeworld/install/mouse_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/mouse_teleop build --build-base /home/sheldon/Documents/pipeworld/build/mouse_teleop/build install --prefix /home/sheldon/Documents/pipeworld/install/mouse_teleop --record /home/sheldon/Documents/pipeworld/build/mouse_teleop/install.log --single-version-externally-managed
+[1.658s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/mouse_teleop/lib'
+[1.658s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/mouse_teleop/bin'
+[1.658s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/mouse_teleop/lib/pkgconfig/mouse_teleop.pc'
+[1.658s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/mouse_teleop/lib/python3.8/site-packages'
+[1.658s] Level 1:colcon.colcon_core.shell:create_environment_hook('mouse_teleop', 'pythonpath')
+[1.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sheldon/Documents/pipeworld/install/mouse_teleop/share/mouse_teleop/hook/pythonpath.ps1'
+[1.659s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sheldon/Documents/pipeworld/install/mouse_teleop/share/mouse_teleop/hook/pythonpath.dsv'
+[1.659s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sheldon/Documents/pipeworld/install/mouse_teleop/share/mouse_teleop/hook/pythonpath.sh'
+[1.659s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mouse_teleop)
+[1.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheldon/Documents/pipeworld/install/mouse_teleop/share/mouse_teleop/package.ps1'
+[1.660s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sheldon/Documents/pipeworld/install/mouse_teleop/share/mouse_teleop/package.dsv'
+[1.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheldon/Documents/pipeworld/install/mouse_teleop/share/mouse_teleop/package.sh'
+[1.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheldon/Documents/pipeworld/install/mouse_teleop/share/mouse_teleop/package.bash'
+[1.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheldon/Documents/pipeworld/install/mouse_teleop/share/mouse_teleop/package.zsh'
+[1.662s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sheldon/Documents/pipeworld/install/mouse_teleop/share/colcon-core/packages/mouse_teleop)
+[1.663s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/pipeworld' for CMake module files
+[1.664s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/pipeworld' for CMake config files
+[1.664s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sheldon/Documents/pipeworld/src/pipeworld' returned '0': PYTHONPATH=/home/sheldon/Documents/pipeworld/install/pipeworld/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pipeworld build --build-base /home/sheldon/Documents/pipeworld/build/pipeworld/build install --prefix /home/sheldon/Documents/pipeworld/install/pipeworld --record /home/sheldon/Documents/pipeworld/build/pipeworld/install.log --single-version-externally-managed
+[1.665s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/pipeworld/lib'
+[1.665s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/pipeworld/bin'
+[1.665s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/pipeworld/lib/pkgconfig/pipeworld.pc'
+[1.665s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/pipeworld/lib/python3.8/site-packages'
+[1.665s] Level 1:colcon.colcon_core.shell:create_environment_hook('pipeworld', 'pythonpath')
+[1.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sheldon/Documents/pipeworld/install/pipeworld/share/pipeworld/hook/pythonpath.ps1'
+[1.666s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sheldon/Documents/pipeworld/install/pipeworld/share/pipeworld/hook/pythonpath.dsv'
+[1.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sheldon/Documents/pipeworld/install/pipeworld/share/pipeworld/hook/pythonpath.sh'
+[1.666s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pipeworld)
+[1.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheldon/Documents/pipeworld/install/pipeworld/share/pipeworld/package.ps1'
+[1.667s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sheldon/Documents/pipeworld/install/pipeworld/share/pipeworld/package.dsv'
+[1.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheldon/Documents/pipeworld/install/pipeworld/share/pipeworld/package.sh'
+[1.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheldon/Documents/pipeworld/install/pipeworld/share/pipeworld/package.bash'
+[1.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheldon/Documents/pipeworld/install/pipeworld/share/pipeworld/package.zsh'
+[1.668s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sheldon/Documents/pipeworld/install/pipeworld/share/colcon-core/packages/pipeworld)
+[1.674s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sheldon/Documents/pipeworld/src/teleop_tools/joy_teleop': CMAKE_PREFIX_PATH=/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs:/home/sheldon/Documents/pipeworld/install/teleop_tools:/home/sheldon/Documents/pipeworld/install/sprintbot-model PYTHONPATH=/home/sheldon/Documents/pipeworld/install/joy_teleop/lib/python3.8/site-packages:/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/sheldon/Documents/pipeworld/install/joy_teleop/lib/python3.8/site-packages:/home/sheldon/Documents/pipeworld/install/pipeworld/lib/python3.8/site-packages:/home/sheldon/Documents/pipeworld/install/mouse_teleop/lib/python3.8/site-packages:/home/sheldon/Documents/pipeworld/install/key_teleop/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/joy_teleop build --build-base /home/sheldon/Documents/pipeworld/build/joy_teleop/build install --prefix /home/sheldon/Documents/pipeworld/install/joy_teleop --record /home/sheldon/Documents/pipeworld/build/joy_teleop/install.log --single-version-externally-managed
+[2.008s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/joy_teleop' for CMake module files
+[2.008s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sheldon/Documents/pipeworld/src/teleop_tools/joy_teleop' returned '0': CMAKE_PREFIX_PATH=/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs:/home/sheldon/Documents/pipeworld/install/teleop_tools:/home/sheldon/Documents/pipeworld/install/sprintbot-model PYTHONPATH=/home/sheldon/Documents/pipeworld/install/joy_teleop/lib/python3.8/site-packages:/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/sheldon/Documents/pipeworld/install/joy_teleop/lib/python3.8/site-packages:/home/sheldon/Documents/pipeworld/install/pipeworld/lib/python3.8/site-packages:/home/sheldon/Documents/pipeworld/install/mouse_teleop/lib/python3.8/site-packages:/home/sheldon/Documents/pipeworld/install/key_teleop/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/joy_teleop build --build-base /home/sheldon/Documents/pipeworld/build/joy_teleop/build install --prefix /home/sheldon/Documents/pipeworld/install/joy_teleop --record /home/sheldon/Documents/pipeworld/build/joy_teleop/install.log --single-version-externally-managed
+[2.009s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/joy_teleop' for CMake config files
+[2.009s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/joy_teleop/lib'
+[2.009s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/joy_teleop/bin'
+[2.009s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/joy_teleop/lib/pkgconfig/joy_teleop.pc'
+[2.009s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/joy_teleop/lib/python3.8/site-packages'
+[2.009s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_teleop', 'pythonpath')
+[2.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sheldon/Documents/pipeworld/install/joy_teleop/share/joy_teleop/hook/pythonpath.ps1'
+[2.010s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sheldon/Documents/pipeworld/install/joy_teleop/share/joy_teleop/hook/pythonpath.dsv'
+[2.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sheldon/Documents/pipeworld/install/joy_teleop/share/joy_teleop/hook/pythonpath.sh'
+[2.011s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy_teleop)
+[2.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheldon/Documents/pipeworld/install/joy_teleop/share/joy_teleop/package.ps1'
+[2.012s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sheldon/Documents/pipeworld/install/joy_teleop/share/joy_teleop/package.dsv'
+[2.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheldon/Documents/pipeworld/install/joy_teleop/share/joy_teleop/package.sh'
+[2.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheldon/Documents/pipeworld/install/joy_teleop/share/joy_teleop/package.bash'
+[2.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheldon/Documents/pipeworld/install/joy_teleop/share/joy_teleop/package.zsh'
+[2.014s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sheldon/Documents/pipeworld/install/joy_teleop/share/colcon-core/packages/joy_teleop)
+[2.014s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sheldon/Documents/pipeworld/src/teleop_tools/teleop_tools' with build type 'ament_cmake'
+[2.014s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sheldon/Documents/pipeworld/src/teleop_tools/teleop_tools'
+[2.015s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.015s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.017s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[2.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sheldon/Documents/pipeworld/build/teleop_tools': AMENT_PREFIX_PATH=/home/sheldon/Documents/pipeworld/install/joy_teleop:/home/sheldon/Documents/pipeworld/install/key_teleop:/home/sheldon/Documents/pipeworld/install/teleop_tools:/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs:/home/sheldon/Documents/pipeworld/install/sprintbot-model:/home/sheldon/Documents/pipeworld/install/pipeworld:/home/sheldon/Documents/pipeworld/install/mouse_teleop:/opt/ros/foxy CMAKE_PREFIX_PATH=/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs:/home/sheldon/Documents/pipeworld/install/teleop_tools:/home/sheldon/Documents/pipeworld/install/sprintbot-model:/home/sheldon/Documents/pipeworld/install/joy_teleop:/home/sheldon/Documents/pipeworld/install/pipeworld:/home/sheldon/Documents/pipeworld/install/mouse_teleop:/home/sheldon/Documents/pipeworld/install/key_teleop:/opt/ros/foxy PYTHONPATH=/home/sheldon/Documents/pipeworld/install/joy_teleop/lib/python3.8/site-packages:/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/sheldon/Documents/pipeworld/install/key_teleop/lib/python3.8/site-packages:/home/sheldon/Documents/pipeworld/install/pipeworld/lib/python3.8/site-packages:/home/sheldon/Documents/pipeworld/install/mouse_teleop/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/sheldon/Documents/pipeworld/build/teleop_tools -- -j8 -l8
+[2.094s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sheldon/Documents/pipeworld/build/teleop_tools' returned '0': AMENT_PREFIX_PATH=/home/sheldon/Documents/pipeworld/install/joy_teleop:/home/sheldon/Documents/pipeworld/install/key_teleop:/home/sheldon/Documents/pipeworld/install/teleop_tools:/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs:/home/sheldon/Documents/pipeworld/install/sprintbot-model:/home/sheldon/Documents/pipeworld/install/pipeworld:/home/sheldon/Documents/pipeworld/install/mouse_teleop:/opt/ros/foxy CMAKE_PREFIX_PATH=/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs:/home/sheldon/Documents/pipeworld/install/teleop_tools:/home/sheldon/Documents/pipeworld/install/sprintbot-model:/home/sheldon/Documents/pipeworld/install/joy_teleop:/home/sheldon/Documents/pipeworld/install/pipeworld:/home/sheldon/Documents/pipeworld/install/mouse_teleop:/home/sheldon/Documents/pipeworld/install/key_teleop:/opt/ros/foxy PYTHONPATH=/home/sheldon/Documents/pipeworld/install/joy_teleop/lib/python3.8/site-packages:/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/sheldon/Documents/pipeworld/install/key_teleop/lib/python3.8/site-packages:/home/sheldon/Documents/pipeworld/install/pipeworld/lib/python3.8/site-packages:/home/sheldon/Documents/pipeworld/install/mouse_teleop/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/sheldon/Documents/pipeworld/build/teleop_tools -- -j8 -l8
+[2.114s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sheldon/Documents/pipeworld/build/teleop_tools': AMENT_PREFIX_PATH=/home/sheldon/Documents/pipeworld/install/joy_teleop:/home/sheldon/Documents/pipeworld/install/key_teleop:/home/sheldon/Documents/pipeworld/install/teleop_tools:/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs:/home/sheldon/Documents/pipeworld/install/sprintbot-model:/home/sheldon/Documents/pipeworld/install/pipeworld:/home/sheldon/Documents/pipeworld/install/mouse_teleop:/opt/ros/foxy CMAKE_PREFIX_PATH=/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs:/home/sheldon/Documents/pipeworld/install/teleop_tools:/home/sheldon/Documents/pipeworld/install/sprintbot-model:/home/sheldon/Documents/pipeworld/install/joy_teleop:/home/sheldon/Documents/pipeworld/install/pipeworld:/home/sheldon/Documents/pipeworld/install/mouse_teleop:/home/sheldon/Documents/pipeworld/install/key_teleop:/opt/ros/foxy PYTHONPATH=/home/sheldon/Documents/pipeworld/install/joy_teleop/lib/python3.8/site-packages:/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/sheldon/Documents/pipeworld/install/key_teleop/lib/python3.8/site-packages:/home/sheldon/Documents/pipeworld/install/pipeworld/lib/python3.8/site-packages:/home/sheldon/Documents/pipeworld/install/mouse_teleop/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/sheldon/Documents/pipeworld/build/teleop_tools
+[2.123s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop_tools)
+[2.124s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/teleop_tools' for CMake module files
+[2.124s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sheldon/Documents/pipeworld/build/teleop_tools' returned '0': AMENT_PREFIX_PATH=/home/sheldon/Documents/pipeworld/install/joy_teleop:/home/sheldon/Documents/pipeworld/install/key_teleop:/home/sheldon/Documents/pipeworld/install/teleop_tools:/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs:/home/sheldon/Documents/pipeworld/install/sprintbot-model:/home/sheldon/Documents/pipeworld/install/pipeworld:/home/sheldon/Documents/pipeworld/install/mouse_teleop:/opt/ros/foxy CMAKE_PREFIX_PATH=/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs:/home/sheldon/Documents/pipeworld/install/teleop_tools:/home/sheldon/Documents/pipeworld/install/sprintbot-model:/home/sheldon/Documents/pipeworld/install/joy_teleop:/home/sheldon/Documents/pipeworld/install/pipeworld:/home/sheldon/Documents/pipeworld/install/mouse_teleop:/home/sheldon/Documents/pipeworld/install/key_teleop:/opt/ros/foxy PYTHONPATH=/home/sheldon/Documents/pipeworld/install/joy_teleop/lib/python3.8/site-packages:/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/sheldon/Documents/pipeworld/install/key_teleop/lib/python3.8/site-packages:/home/sheldon/Documents/pipeworld/install/pipeworld/lib/python3.8/site-packages:/home/sheldon/Documents/pipeworld/install/mouse_teleop/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/sheldon/Documents/pipeworld/build/teleop_tools
+[2.125s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/teleop_tools' for CMake config files
+[2.125s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_tools', 'cmake_prefix_path')
+[2.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sheldon/Documents/pipeworld/install/teleop_tools/share/teleop_tools/hook/cmake_prefix_path.ps1'
+[2.126s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sheldon/Documents/pipeworld/install/teleop_tools/share/teleop_tools/hook/cmake_prefix_path.dsv'
+[2.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sheldon/Documents/pipeworld/install/teleop_tools/share/teleop_tools/hook/cmake_prefix_path.sh'
+[2.126s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/teleop_tools/bin'
+[2.126s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/teleop_tools/lib/pkgconfig/teleop_tools.pc'
+[2.127s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/teleop_tools/lib/python3.8/site-packages'
+[2.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheldon/Documents/pipeworld/install/teleop_tools/share/teleop_tools/package.ps1'
+[2.127s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sheldon/Documents/pipeworld/install/teleop_tools/share/teleop_tools/package.dsv'
+[2.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheldon/Documents/pipeworld/install/teleop_tools/share/teleop_tools/package.sh'
+[2.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheldon/Documents/pipeworld/install/teleop_tools/share/teleop_tools/package.bash'
+[2.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheldon/Documents/pipeworld/install/teleop_tools/share/teleop_tools/package.zsh'
+[2.129s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sheldon/Documents/pipeworld/install/teleop_tools/share/colcon-core/packages/teleop_tools)
+[2.149s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop_tools)
+[2.150s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/teleop_tools' for CMake module files
+[2.150s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/teleop_tools' for CMake config files
+[2.150s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_tools', 'cmake_prefix_path')
+[2.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sheldon/Documents/pipeworld/install/teleop_tools/share/teleop_tools/hook/cmake_prefix_path.ps1'
+[2.151s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sheldon/Documents/pipeworld/install/teleop_tools/share/teleop_tools/hook/cmake_prefix_path.dsv'
+[2.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sheldon/Documents/pipeworld/install/teleop_tools/share/teleop_tools/hook/cmake_prefix_path.sh'
+[2.152s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/teleop_tools/bin'
+[2.152s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/teleop_tools/lib/pkgconfig/teleop_tools.pc'
+[2.152s] Level 1:colcon.colcon_core.environment:checking '/home/sheldon/Documents/pipeworld/install/teleop_tools/lib/python3.8/site-packages'
+[2.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheldon/Documents/pipeworld/install/teleop_tools/share/teleop_tools/package.ps1'
+[2.153s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sheldon/Documents/pipeworld/install/teleop_tools/share/teleop_tools/package.dsv'
+[2.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheldon/Documents/pipeworld/install/teleop_tools/share/teleop_tools/package.sh'
+[2.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheldon/Documents/pipeworld/install/teleop_tools/share/teleop_tools/package.bash'
+[2.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheldon/Documents/pipeworld/install/teleop_tools/share/teleop_tools/package.zsh'
+[2.154s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sheldon/Documents/pipeworld/install/teleop_tools/share/colcon-core/packages/teleop_tools)
+[2.155s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.155s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.155s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.155s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.161s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.162s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.162s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.177s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.177s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sheldon/Documents/pipeworld/install/local_setup.ps1'
+[2.178s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sheldon/Documents/pipeworld/install/_local_setup_util_ps1.py'
+[2.179s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sheldon/Documents/pipeworld/install/setup.ps1'
+[2.183s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sheldon/Documents/pipeworld/install/local_setup.sh'
+[2.183s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sheldon/Documents/pipeworld/install/_local_setup_util_sh.py'
+[2.184s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sheldon/Documents/pipeworld/install/setup.sh'
+[2.186s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sheldon/Documents/pipeworld/install/local_setup.bash'
+[2.186s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sheldon/Documents/pipeworld/install/setup.bash'
+[2.188s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sheldon/Documents/pipeworld/install/local_setup.zsh'
+[2.189s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sheldon/Documents/pipeworld/install/setup.zsh'

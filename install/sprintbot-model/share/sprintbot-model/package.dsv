@@ -1,0 +1,8 @@
+source;share/sprintbot-model/hook/cmake_prefix_path.ps1
+source;share/sprintbot-model/hook/cmake_prefix_path.dsv
+source;share/sprintbot-model/hook/cmake_prefix_path.sh
+source;share/sprintbot-model/local_setup.bash
+source;share/sprintbot-model/local_setup.dsv
+source;share/sprintbot-model/local_setup.ps1
+source;share/sprintbot-model/local_setup.sh
+source;share/sprintbot-model/local_setup.zsh

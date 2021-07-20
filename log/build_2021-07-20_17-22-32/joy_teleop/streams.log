@@ -1,0 +1,45 @@
+[0.266s] Invoking command in '/home/sheldon/Documents/pipeworld/src/teleop_tools/joy_teleop': AMENT_PREFIX_PATH=/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs LD_LIBRARY_PATH=/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sheldon/Documents/pipeworld/install/joy_teleop/lib/python3.8/site-packages:/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/joy_teleop build --build-base /home/sheldon/Documents/pipeworld/build/joy_teleop/build install --prefix /home/sheldon/Documents/pipeworld/install/joy_teleop --record /home/sheldon/Documents/pipeworld/build/joy_teleop/install.log --single-version-externally-managed
+[0.482s] running egg_info
+[0.483s] creating ../../../build/joy_teleop/joy_teleop.egg-info
+[0.483s] writing ../../../build/joy_teleop/joy_teleop.egg-info/PKG-INFO
+[0.483s] writing dependency_links to ../../../build/joy_teleop/joy_teleop.egg-info/dependency_links.txt
+[0.483s] writing entry points to ../../../build/joy_teleop/joy_teleop.egg-info/entry_points.txt
+[0.483s] writing requirements to ../../../build/joy_teleop/joy_teleop.egg-info/requires.txt
+[0.483s] writing top-level names to ../../../build/joy_teleop/joy_teleop.egg-info/top_level.txt
+[0.484s] writing manifest file '../../../build/joy_teleop/joy_teleop.egg-info/SOURCES.txt'
+[0.516s] reading manifest file '../../../build/joy_teleop/joy_teleop.egg-info/SOURCES.txt'
+[0.517s] writing manifest file '../../../build/joy_teleop/joy_teleop.egg-info/SOURCES.txt'
+[0.517s] running build
+[0.517s] running build_py
+[0.517s] creating /home/sheldon/Documents/pipeworld/build/joy_teleop/build
+[0.517s] creating /home/sheldon/Documents/pipeworld/build/joy_teleop/build/lib
+[0.517s] creating /home/sheldon/Documents/pipeworld/build/joy_teleop/build/lib/joy_teleop
+[0.518s] copying joy_teleop/incrementer_server.py -> /home/sheldon/Documents/pipeworld/build/joy_teleop/build/lib/joy_teleop
+[0.518s] copying joy_teleop/joy_teleop.py -> /home/sheldon/Documents/pipeworld/build/joy_teleop/build/lib/joy_teleop
+[0.518s] copying joy_teleop/__init__.py -> /home/sheldon/Documents/pipeworld/build/joy_teleop/build/lib/joy_teleop
+[0.518s] running install
+[0.518s] running install_lib
+[0.519s] creating /home/sheldon/Documents/pipeworld/install/joy_teleop/lib/python3.8/site-packages/joy_teleop
+[0.519s] copying /home/sheldon/Documents/pipeworld/build/joy_teleop/build/lib/joy_teleop/incrementer_server.py -> /home/sheldon/Documents/pipeworld/install/joy_teleop/lib/python3.8/site-packages/joy_teleop
+[0.519s] copying /home/sheldon/Documents/pipeworld/build/joy_teleop/build/lib/joy_teleop/joy_teleop.py -> /home/sheldon/Documents/pipeworld/install/joy_teleop/lib/python3.8/site-packages/joy_teleop
+[0.520s] copying /home/sheldon/Documents/pipeworld/build/joy_teleop/build/lib/joy_teleop/__init__.py -> /home/sheldon/Documents/pipeworld/install/joy_teleop/lib/python3.8/site-packages/joy_teleop
+[0.520s] byte-compiling /home/sheldon/Documents/pipeworld/install/joy_teleop/lib/python3.8/site-packages/joy_teleop/incrementer_server.py to incrementer_server.cpython-38.pyc
+[0.522s] byte-compiling /home/sheldon/Documents/pipeworld/install/joy_teleop/lib/python3.8/site-packages/joy_teleop/joy_teleop.py to joy_teleop.cpython-38.pyc
+[0.524s] byte-compiling /home/sheldon/Documents/pipeworld/install/joy_teleop/lib/python3.8/site-packages/joy_teleop/__init__.py to __init__.cpython-38.pyc
+[0.525s] running install_data
+[0.525s] copying package.xml -> /home/sheldon/Documents/pipeworld/install/joy_teleop/share/joy_teleop
+[0.525s] creating /home/sheldon/Documents/pipeworld/install/joy_teleop/share/joy_teleop/config
+[0.526s] copying config/joy_teleop_example.yaml -> /home/sheldon/Documents/pipeworld/install/joy_teleop/share/joy_teleop/config
+[0.526s] creating /home/sheldon/Documents/pipeworld/install/joy_teleop/share/joy_teleop/launch
+[0.526s] copying launch/example.launch.py -> /home/sheldon/Documents/pipeworld/install/joy_teleop/share/joy_teleop/launch
+[0.526s] creating /home/sheldon/Documents/pipeworld/install/joy_teleop/share/ament_index
+[0.526s] creating /home/sheldon/Documents/pipeworld/install/joy_teleop/share/ament_index/resource_index
+[0.526s] creating /home/sheldon/Documents/pipeworld/install/joy_teleop/share/ament_index/resource_index/packages
+[0.526s] copying resource/joy_teleop -> /home/sheldon/Documents/pipeworld/install/joy_teleop/share/ament_index/resource_index/packages
+[0.526s] running install_egg_info
+[0.527s] Copying ../../../build/joy_teleop/joy_teleop.egg-info to /home/sheldon/Documents/pipeworld/install/joy_teleop/lib/python3.8/site-packages/joy_teleop-0.3.0-py3.8.egg-info
+[0.528s] running install_scripts
+[0.552s] Installing incrementer_server script to /home/sheldon/Documents/pipeworld/install/joy_teleop/lib/joy_teleop
+[0.553s] Installing joy_teleop script to /home/sheldon/Documents/pipeworld/install/joy_teleop/lib/joy_teleop
+[0.553s] writing list of installed files to '/home/sheldon/Documents/pipeworld/build/joy_teleop/install.log'
+[0.577s] Invoked command in '/home/sheldon/Documents/pipeworld/src/teleop_tools/joy_teleop' returned '0': AMENT_PREFIX_PATH=/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs LD_LIBRARY_PATH=/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sheldon/Documents/pipeworld/install/joy_teleop/lib/python3.8/site-packages:/home/sheldon/Documents/pipeworld/install/teleop_tools_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/joy_teleop build --build-base /home/sheldon/Documents/pipeworld/build/joy_teleop/build install --prefix /home/sheldon/Documents/pipeworld/install/joy_teleop --record /home/sheldon/Documents/pipeworld/build/joy_teleop/install.log --single-version-externally-managed

@@ -1,0 +1,51 @@
+[0.952s] Invoking command in '/home/sheldon/Documents/pipeworld/build/sprintbot-model': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/sheldon/Documents/pipeworld/src/sprintbot-model -DCMAKE_INSTALL_PREFIX=/home/sheldon/Documents/pipeworld/install/sprintbot-model
+[1.217s] -- The C compiler identification is GNU 9.3.0
+[2.937s] -- The CXX compiler identification is GNU 9.3.0
+[2.961s] -- Check for working C compiler: /usr/bin/cc
+[3.034s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.035s] -- Detecting C compiler ABI info
+[3.139s] -- Detecting C compiler ABI info - done
+[3.160s] -- Detecting C compile features
+[3.167s] -- Detecting C compile features - done
+[3.171s] -- Check for working CXX compiler: /usr/bin/c++
+[3.256s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.257s] -- Detecting CXX compiler ABI info
+[3.339s] -- Detecting CXX compiler ABI info - done
+[3.362s] -- Detecting CXX compile features
+[3.362s] -- Detecting CXX compile features - done
+[3.366s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.392s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.392s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.614s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.771s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.789s] -- Added test 'lint_cmake' to check CMake code style
+[3.799s] -- Added test 'xmllint' to check XML markup files
+[3.802s] -- Configuring done
+[3.804s] -- Generating done
+[3.806s] -- Build files have been written to: /home/sheldon/Documents/pipeworld/build/sprintbot-model
+[3.816s] Invoked command in '/home/sheldon/Documents/pipeworld/build/sprintbot-model' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/sheldon/Documents/pipeworld/src/sprintbot-model -DCMAKE_INSTALL_PREFIX=/home/sheldon/Documents/pipeworld/install/sprintbot-model
+[3.817s] Invoking command in '/home/sheldon/Documents/pipeworld/build/sprintbot-model': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sheldon/Documents/pipeworld/build/sprintbot-model -- -j8 -l8
+[3.856s] Invoked command in '/home/sheldon/Documents/pipeworld/build/sprintbot-model' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sheldon/Documents/pipeworld/build/sprintbot-model -- -j8 -l8
+[3.892s] Invoking command in '/home/sheldon/Documents/pipeworld/build/sprintbot-model': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/sheldon/Documents/pipeworld/build/sprintbot-model
+[3.901s] -- Install configuration: ""
+[3.901s] -- Installing: /home/sheldon/Documents/pipeworld/install/sprintbot-model/share/sprintbot-model//urdf
+[3.901s] -- Installing: /home/sheldon/Documents/pipeworld/install/sprintbot-model/share/sprintbot-model//urdf/sprintbot.urdf
+[3.901s] -- Installing: /home/sheldon/Documents/pipeworld/install/sprintbot-model/share/sprintbot-model//meshes
+[3.901s] -- Installing: /home/sheldon/Documents/pipeworld/install/sprintbot-model/share/sprintbot-model//meshes/sprintbot_body_corrected_axis.dae
+[3.904s] -- Installing: /home/sheldon/Documents/pipeworld/install/sprintbot-model/share/sprintbot-model//meshes/sprintbot_wheel_corrected_axis.dae
+[3.905s] -- Installing: /home/sheldon/Documents/pipeworld/install/sprintbot-model/share/ament_index/resource_index/package_run_dependencies/sprintbot-model
+[3.905s] -- Installing: /home/sheldon/Documents/pipeworld/install/sprintbot-model/share/ament_index/resource_index/parent_prefix_path/sprintbot-model
+[3.905s] -- Installing: /home/sheldon/Documents/pipeworld/install/sprintbot-model/share/sprintbot-model/environment/ament_prefix_path.sh
+[3.905s] -- Installing: /home/sheldon/Documents/pipeworld/install/sprintbot-model/share/sprintbot-model/environment/ament_prefix_path.dsv
+[3.906s] -- Installing: /home/sheldon/Documents/pipeworld/install/sprintbot-model/share/sprintbot-model/environment/path.sh
+[3.906s] -- Installing: /home/sheldon/Documents/pipeworld/install/sprintbot-model/share/sprintbot-model/environment/path.dsv
+[3.906s] -- Installing: /home/sheldon/Documents/pipeworld/install/sprintbot-model/share/sprintbot-model/local_setup.bash
+[3.906s] -- Installing: /home/sheldon/Documents/pipeworld/install/sprintbot-model/share/sprintbot-model/local_setup.sh
+[3.907s] -- Installing: /home/sheldon/Documents/pipeworld/install/sprintbot-model/share/sprintbot-model/local_setup.zsh
+[3.907s] -- Installing: /home/sheldon/Documents/pipeworld/install/sprintbot-model/share/sprintbot-model/local_setup.dsv
+[3.907s] -- Installing: /home/sheldon/Documents/pipeworld/install/sprintbot-model/share/sprintbot-model/package.dsv
+[3.907s] -- Installing: /home/sheldon/Documents/pipeworld/install/sprintbot-model/share/ament_index/resource_index/packages/sprintbot-model
+[3.907s] -- Installing: /home/sheldon/Documents/pipeworld/install/sprintbot-model/share/sprintbot-model/cmake/sprintbot-modelConfig.cmake
+[3.907s] -- Installing: /home/sheldon/Documents/pipeworld/install/sprintbot-model/share/sprintbot-model/cmake/sprintbot-modelConfig-version.cmake
+[3.908s] -- Installing: /home/sheldon/Documents/pipeworld/install/sprintbot-model/share/sprintbot-model/package.xml
+[3.912s] Invoked command in '/home/sheldon/Documents/pipeworld/build/sprintbot-model' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/sheldon/Documents/pipeworld/build/sprintbot-model

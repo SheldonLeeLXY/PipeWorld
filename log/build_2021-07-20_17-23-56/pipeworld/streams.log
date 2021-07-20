@@ -1,0 +1,22 @@
+[0.791s] Invoking command in '/home/sheldon/Documents/pipeworld/src/pipeworld': PYTHONPATH=/home/sheldon/Documents/pipeworld/install/pipeworld/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pipeworld build --build-base /home/sheldon/Documents/pipeworld/build/pipeworld/build install --prefix /home/sheldon/Documents/pipeworld/install/pipeworld --record /home/sheldon/Documents/pipeworld/build/pipeworld/install.log --single-version-externally-managed
+[1.106s] running egg_info
+[1.107s] writing ../../build/pipeworld/pipeworld.egg-info/PKG-INFO
+[1.107s] writing dependency_links to ../../build/pipeworld/pipeworld.egg-info/dependency_links.txt
+[1.108s] writing entry points to ../../build/pipeworld/pipeworld.egg-info/entry_points.txt
+[1.108s] writing requirements to ../../build/pipeworld/pipeworld.egg-info/requires.txt
+[1.108s] writing top-level names to ../../build/pipeworld/pipeworld.egg-info/top_level.txt
+[1.164s] reading manifest file '../../build/pipeworld/pipeworld.egg-info/SOURCES.txt'
+[1.181s] writing manifest file '../../build/pipeworld/pipeworld.egg-info/SOURCES.txt'
+[1.181s] running build
+[1.181s] running build_py
+[1.181s] running install
+[1.182s] running install_lib
+[1.183s] running install_data
+[1.184s] running install_egg_info
+[1.185s] removing '/home/sheldon/Documents/pipeworld/install/pipeworld/lib/python3.8/site-packages/pipeworld-0.0.0-py3.8.egg-info' (and everything under it)
+[1.185s] Copying ../../build/pipeworld/pipeworld.egg-info to /home/sheldon/Documents/pipeworld/install/pipeworld/lib/python3.8/site-packages/pipeworld-0.0.0-py3.8.egg-info
+[1.186s] running install_scripts
+[1.202s] Installing navi_pose script to /home/sheldon/Documents/pipeworld/install/pipeworld/lib/pipeworld
+[1.202s] Installing pipe_spawner script to /home/sheldon/Documents/pipeworld/install/pipeworld/lib/pipeworld
+[1.202s] writing list of installed files to '/home/sheldon/Documents/pipeworld/build/pipeworld/install.log'
+[1.318s] Invoked command in '/home/sheldon/Documents/pipeworld/src/pipeworld' returned '0': PYTHONPATH=/home/sheldon/Documents/pipeworld/install/pipeworld/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pipeworld build --build-base /home/sheldon/Documents/pipeworld/build/pipeworld/build install --prefix /home/sheldon/Documents/pipeworld/install/pipeworld --record /home/sheldon/Documents/pipeworld/build/pipeworld/install.log --single-version-externally-managed

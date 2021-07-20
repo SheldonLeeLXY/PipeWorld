@@ -1,0 +1,4 @@
+source;share/sprintbot-model/local_setup.bash
+source;share/sprintbot-model/local_setup.dsv
+source;share/sprintbot-model/local_setup.sh
+source;share/sprintbot-model/local_setup.zsh

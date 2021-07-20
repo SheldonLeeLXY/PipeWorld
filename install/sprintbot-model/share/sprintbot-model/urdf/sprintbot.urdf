@@ -1,0 +1,439 @@
+<?xml version="1.0" ?>
+<robot name="sprintbot_basic_collisions">
+    
+  <link name="link_0">
+    <inertial>
+      <mass value="1.5"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </inertial>
+    <origin rpy="0 0 0 0" xyz="0 0 0"/>
+    <kinematic>0</kinematic>
+    <enable_wind>0</enable_wind>
+    <visual>
+      <origin rpy="0 0 -1.5708" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./install/sprintbot-model/share/sprintbot-model/meshes/sprintbot_body_corrected_axis.dae"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin rpy="0 0 -1.5708" xyz="0 0 0"/>
+      <geometry>
+        <sphere radius="0.0915"/>
+      </geometry>
+    </collision>
+  </link>
+  
+  <link name="link_1">
+    <inertial>
+      <mass value="0.35"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </inertial>
+    <origin rpy="0 0 0" xyz="0 0.04 0"/>
+    <kinematic>0</kinematic>
+    <enable_wind>0</enable_wind>
+    <visual>
+      <origin rpy="1.5708 0 0" xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="0.015" radius="0.1"/>
+      </geometry>
+      <transparency>0</transparency>
+      <cast_shadows>1</cast_shadows>
+    </visual>
+    <collision>
+      <origin rpy="1.5708 0 0" xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="0.015" radius="0.1"/>
+      </geometry>
+    </collision>    
+  </link>
+  
+  <link name="link_2">
+    <inertial>
+      <mass value="0.35"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </inertial>
+    <origin rpy="0 0 0" xyz="0 -0.04 0"/>
+    <kinematic>0</kinematic>
+    <enable_wind>0</enable_wind>
+    <visual>
+      <origin rpy="1.5708 0 0" xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="0.015" radius="0.1"/>
+      </geometry>
+      <transparency>0</transparency>
+      <cast_shadows>1</cast_shadows>
+    </visual>
+    <collision>
+      <origin rpy="1.5708 0 0" xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="0.015" radius="0.1"/>
+      </geometry>
+    </collision> 
+  </link>
+  
+  <link name="front_caster">
+    <inertial>
+      <mass value="0.005"/>
+      <inertia ixx="1.15e-06" ixy="0" ixz="0" iyy="1.15e-06" iyz="0" izz="1.15e-06"/>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </inertial>
+    <origin rpy="0 0 0" xyz="0.12 0 -0.09"/>
+    <kinematic>0</kinematic>
+    <enable_wind>0</enable_wind>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <sphere radius="0.01"/>
+      </geometry>
+      <transparency>0</transparency>
+      <cast_shadows>1</cast_shadows>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <sphere radius="0.01"/>
+      </geometry>
+    </collision> 
+  </link>
+  
+  <link name="back_caster">
+    <inertial>
+      <mass value="0.005"/>
+      <inertia ixx="1.15e-06" ixy="0" ixz="0" iyy="1.15e-06" iyz="0" izz="1.15e-06"/>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </inertial>
+    <origin rpy="0 0 0" xyz="-0.12 0 -0.09"/>
+    <kinematic>0</kinematic>
+    <enable_wind>0</enable_wind>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <sphere radius="0.01"/>
+      </geometry>
+      <transparency>0</transparency>
+      <cast_shadows>1</cast_shadows>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <sphere radius="0.01"/>
+      </geometry>
+    </collision> 
+  </link>
+  
+  <joint name="left_motor" type="revolute">
+    <parent link="link_0"/>
+    <child link="link_1"/>
+    <origin rpy="0 0 0" xyz="0 0.04 0"/>
+    <axis xyz="0 1 0"/>
+    <limit effort="2.62" lower="-1.79769e+308" upper="1.79769e+308" velocity="0.5"/>
+    <dynamics damping="0" friction="0" spring_reference="0" spring_stiffness="0"/>
+  </joint>
+  
+  <joint name="right_motor" type="revolute">
+    <parent link="link_0"/>
+    <child link="link_2"/>
+    <origin rpy="0 0 0" xyz="0 -0.04 0"/>
+    <axis xyz="0 1 0"/>
+    <limit effort="2.62" lower="-1.79769e+308" upper="1.79769e+308" velocity="0.5"/>
+    <dynamics damping="0" friction="0" spring_reference="0" spring_stiffness="0"/>
+  </joint>
+  
+  <joint name="back_caster_joint" type="revolute">
+    <parent link="link_0"/>
+    <child link="back_caster"/>
+    <origin rpy="0 0 0" xyz="-0.12 0 -0.09"/>
+    <axis xyz="0 1 0"/>
+    <limit effort="2.62" lower="-1.79769e+308" upper="1.79769e+308" velocity="0.5"/>
+    <dynamics damping="0" friction="0" spring_reference="0" spring_stiffness="0"/>
+  </joint>
+  
+  <joint name="front_caster_joint" type="revolute">
+    <parent link="link_0"/>
+    <child link="front_caster"/>
+    <origin rpy="0 0 0" xyz="0.12 0 -0.09"/>
+    <axis xyz="0 1 0"/>
+    <limit effort="2.62" lower="-1.79769e+308" upper="1.79769e+308" velocity="0.5"/>
+    <dynamics damping="0" friction="0" spring_reference="0" spring_stiffness="0"/>
+  </joint>
+  
+  <gazebo reference="link_0">
+      <sensor name="range_0" type="ray">
+        <pose>0.065 0.065 0 0 0 0.79</pose>
+        <ray>
+          <range>
+            <min>0.04</min>
+            <max>3.0</max>
+          </range>
+        </ray>
+        <always_on>true</always_on>
+        <visualize>true</visualize>
+        <update_rate>100.0</update_rate>
+        <plugin name="range_0_sensor" filename="libgazebo_ros_ray_sensor.so">
+          <ros>
+            <remapping>~/out:=range_0</remapping>
+          </ros>
+          <radiation_type>infrared</radiation_type>
+          <output_type>sensor_msgs/Range</output_type>
+        </plugin>
+      </sensor>
+
+      <sensor name="range_1" type="ray">
+        <pose>0.092 0 0 0 0 0</pose>
+        <ray>
+          <range>
+            <min>0.04</min>
+            <max>3.0</max>
+          </range>
+        </ray>
+        <always_on>true</always_on>
+        <visualize>true</visualize>
+        <update_rate>100.0</update_rate>
+        <plugin name="range_1_sensor" filename="libgazebo_ros_ray_sensor.so">
+          <ros>
+            <remapping>~/out:=range_1</remapping>
+          </ros>
+          <radiation_type>infrared</radiation_type>
+          <output_type>sensor_msgs/Range</output_type>
+        </plugin>
+      </sensor>
+
+      <sensor name="range_2" type="ray">
+        <pose>0.065 -0.065 0 0 0 -0.79</pose>
+        <ray>
+          <range>
+            <min>0.04</min>
+            <max>3.0</max>
+          </range>
+        </ray>
+        <always_on>true</always_on>
+        <visualize>true</visualize>
+        <update_rate>100.0</update_rate>
+        <plugin name="range_2_sensor" filename="libgazebo_ros_ray_sensor.so">
+          <ros>
+            <remapping>~/out:=range_2</remapping>
+          </ros>
+          <radiation_type>infrared</radiation_type>
+          <output_type>sensor_msgs/Range</output_type>
+        </plugin>
+      </sensor>
+ <!-- ======================================add two more at front top and bottom=========================== -->     
+      <sensor name="range_3" type="ray">
+        <pose>0.065 0 0.065 0 -0.395 0</pose>
+        <ray>
+          <range>
+            <min>0.04</min>
+            <max>3.0</max>
+          </range>
+        </ray>
+        <always_on>true</always_on>
+        <visualize>true</visualize>
+        <update_rate>100.0</update_rate>
+        <plugin name="range_3_sensor" filename="libgazebo_ros_ray_sensor.so">
+          <ros>
+            <remapping>~/out:=range_3</remapping>
+          </ros>
+          <radiation_type>infrared</radiation_type>
+          <output_type>sensor_msgs/Range</output_type>
+        </plugin>
+      </sensor>
+
+      <sensor name="range_4" type="ray">
+        <pose>0.065 0 -0.065 0 0.395 0</pose>
+        <ray>
+          <range>
+            <min>0.04</min>
+            <max>3.0</max>
+          </range>
+        </ray>
+        <always_on>true</always_on>
+        <visualize>true</visualize>
+        <update_rate>100.0</update_rate>
+        <plugin name="range_4_sensor" filename="libgazebo_ros_ray_sensor.so">
+          <ros>
+            <remapping>~/out:=range_4</remapping>
+          </ros>
+          <radiation_type>infrared</radiation_type>
+          <output_type>sensor_msgs/Range</output_type>
+        </plugin>
+      </sensor>
+      
+  </gazebo>
+  
+  <!-- =======================================IMU============================ -->
+  <gazebo reference="link_0">
+    <gravity>true</gravity>
+    <sensor name="imu_sensor" type="imu">
+      <always_on>true</always_on>
+      <update_rate>100</update_rate>
+      <visualize>true</visualize>
+      <topic>imu</topic>
+      <plugin filename="libgazebo_ros_imu_sensor.so" name="imu">
+        <topicName>imu1</topicName>
+        <bodyName>link_0</bodyName>
+        <updateRateHZ>50.0</updateRateHZ>
+        <gaussianNoise>0.0</gaussianNoise>
+        <xyzOffset>0 0 0</xyzOffset>
+        <rpyOffset>0 0 0</rpyOffset>
+        <frameName>link_0</frameName>
+        <initialOrientationAsReference>false</initialOrientationAsReference>
+      </plugin>
+      <pose>0 0 0 0 0 0</pose>
+    </sensor>
+  </gazebo>
+  <!-- ======================================camera============================ -->
+  <link name="camera">
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.01 0.01 0.01"/>
+      </geometry>
+    </collision>
+
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.01 0.02 0.02"/>
+      </geometry>
+      <material name="green"/>
+    </visual>
+
+    <inertial>
+      <mass value="0.01}" />
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <box_inertia m="0.01" x="0.01" y="0.01" z="0.01" />
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6" />
+    </inertial>
+  </link>
+
+  <joint name="camera_joint" type="fixed">
+    <axis xyz="0 1 0" />
+    <origin xyz="0.1 0 0" rpy="-0.05 0 0"/>
+    <parent link="link_0"/>
+    <child link="camera"/>
+  </joint>
+  
+  <gazebo reference="camera">
+    <material>Gazebo/Green</material>
+    <sensor type="camera" name="camera0">
+      <update_rate>30.0</update_rate>
+      <camera name="head">
+        <horizontal_fov>1.3962634</horizontal_fov>
+        <image>
+          <width>800</width>
+          <height>800</height>
+          <format>R8G8B8</format>
+        </image>
+        <clip>
+          <near>0.02</near>
+          <far>300</far>
+        </clip>
+      </camera>
+      <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+        <alwaysOn>true</alwaysOn>
+        <updateRate>0.0</updateRate>
+        <cameraName>sprintbot/camera0</cameraName>
+        <imageTopicName>image_raw</imageTopicName>
+        <cameraInfoTopicName>camera_info</cameraInfoTopicName>
+        <frameName>camera</frameName>
+        <hackBaseline>0.07</hackBaseline>
+        <distortionK1>0.0</distortionK1>
+        <distortionK2>0.0</distortionK2>
+        <distortionK3>0.0</distortionK3>
+        <distortionT1>0.0</distortionT1>
+        <distortionT2>0.0</distortionT2>
+      </plugin>
+    </sensor>
+  </gazebo>
+ <!-- ====================================== Force sensor ============================ -->
+  <link name="loadcell">
+   <inertial>
+      <mass value="0.01}" />
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <box_inertia m="0.01" x="0.02" y="0.02" z="0.02" />
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6" />
+    </inertial>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.02 0.02 0.02"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.02 0.02 0.02"/>
+      </geometry>
+      <material name="red"/>
+    </visual>
+  </link>
+  <gazebo reference="loadcell">
+    <material>Gazebo/Red</material>
+  </gazebo>
+  <joint
+    name="loadcell_joint" type="fixed">
+    <origin xyz="0 0 0.098" rpy="0 0 0" />
+    <parent link="link_0" />
+    <child link="loadcell" />
+    <axis xyz="0 0 1" />
+    <limit lower="0" upper="0" effort="0" velocity="0" />
+    <dynamics damping="0.1" friction="0.1" />
+  </joint>
+  <!--Set the feedback to the joint to be true-->
+  <gazebo 
+     reference="loadcell_joint">
+     <provideFeedback>true</provideFeedback>
+  </gazebo>
+  <!-- Add ft_sensor plugin -->
+  
+  <gazebo>
+    <plugin name="ft_sensor" filename="libgazebo_ros_ft_sensor.so">
+      <updateRate>100.0</updateRate>
+      <topicName>ft_sensor_topic</topicName>
+      <jointName>loadcell_joint</jointName>
+      <!--noise>
+          <type>gaussian</type>
+          <mean>0.0</mean>
+          <stddev>0.003</stddev>
+        </noise-->
+    </plugin>
+  </gazebo>
+ <!--===============================================================================--> 
+  
+  <gazebo>
+    <plugin name='diff_drive' filename='libgazebo_ros_diff_drive.so'>
+      <left_joint>left_motor</left_joint>
+      <right_joint>right_motor</right_joint>
+      <wheel_separation>0.08</wheel_separation>
+      <wheel_diameter>0.2</wheel_diameter>
+      <max_wheel_torque>2.61</max_wheel_torque>
+      <max_wheel_acceleration>0.5</max_wheel_acceleration>
+      <publish_odom>1</publish_odom>
+    </plugin>
+    <!--plugin name="left_motor_plugin" filename="libgazebo_ros_simple_motor.so">
+        <ros>
+            <remapping>cmd_motor:=cmd_left_motor</remapping>
+        </ros>
+        <motor_shaft_name>left_motor</motor_shaft_name>
+        <max_change_rpm>5.0</max_change_rpm>
+        <max_rpm>500.0</max_rpm>
+        <max_change_radians>0.314</max_change_radians>
+        <update_rate>10.0</update_rate>
+      </plugin-->
+      
+    <!--plugin name="right_motor_plugin" filename="libgazebo_ros_simple_motor.so">
+        <ros>
+            <remapping>cmd_motor:=cmd_right_motor</remapping>
+        </ros>
+        <motor_shaft_name>right_motor</motor_shaft_name>
+        <max_change_rpm>5.0</max_change_rpm>
+        <max_rpm>500.0</max_rpm>
+        <max_change_radians>0.314</max_change_radians>
+        <update_rate>10.0</update_rate>
+    </plugin-->
+  </gazebo>
+  
+</robot>
